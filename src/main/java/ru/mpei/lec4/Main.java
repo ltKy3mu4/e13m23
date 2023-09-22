@@ -1,10 +1,6 @@
 package ru.mpei.lec4;
 
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.sql.SQLException;
-import java.sql.SQLOutput;
-import java.util.Scanner;
 
 public class Main {
 
@@ -58,7 +54,6 @@ public class Main {
         } catch (BankException e){
             e.printStackTrace();
         }
-
 
 
     }
