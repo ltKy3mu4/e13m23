@@ -36,6 +36,7 @@ class MyLinkedListTests {
 
     @Test
     void addTest2(){
+        String [] strings;
         List<String> list = new MyLinkedList<>();
         list.add("st1");
         list.add("st2");
