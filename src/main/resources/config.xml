@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <info name="reactive power regulator" ver="0.0.1"/>
+    <minQ>-100</minQ>
+    <maxQ>100</maxQ>
+    <coefficients>
+        <p>0.1</p>
+        <i>5</i>
+        <d>0.05</d>
+    </coefficients>
+</root>
