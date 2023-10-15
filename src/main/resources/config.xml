@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
+<cfg>
     <info name="reactive power regulator" ver="0.0.1"/>
     <minQ>-100</minQ>
     <maxQ>100</maxQ>
@@ -8,4 +8,4 @@
         <i>5</i>
         <d>0.05</d>
     </coefficients>
-</root>
+</cfg>
