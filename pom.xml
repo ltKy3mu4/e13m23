@@ -86,6 +86,12 @@
             <version>1.2.3</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.pcap4j</groupId>
+            <artifactId>pcap4j-core</artifactId>
+            <version>1.8.2</version>
+        </dependency>
+
     </dependencies>
 
     <repositories>
