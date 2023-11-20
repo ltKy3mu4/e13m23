@@ -15,15 +15,22 @@ public class JadeStarter {
                 "seller1", AgentSeller.class,
                 "seller2", AgentSeller.class
         );
+        ProfileImpl p = createProperties(agents);
+        startPlatfrom(p);
+    }
 
+    private static void startPlatfrom(ProfileImpl p) {
+        Runtime.instance().setCloseVM(true);
+        Runtime.instance().createMainContainer(p);
+    }
+
+    private static ProfileImpl createProperties(Map<String, Class<?>> agents) {
         Properties props = new ExtendedProperties();
         props.setProperty("gui", "true");
         props.setProperty("agents", addAgents(agents));
         props.setProperty("services", addServices(List.of("jade.core.messaging.TopicManagementService")));
         ProfileImpl p = new ProfileImpl(props);
-
-        Runtime.instance().setCloseVM(true);
-        Runtime.instance().createMainContainer(p);
+        return p;
     }
 
     private static String addAgents(Map<String, Class<?>> createAgents){
