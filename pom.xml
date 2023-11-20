@@ -94,11 +94,11 @@
 
     </dependencies>
 
-    <repositories>
-        <repository>
-            <id>tilab</id>
-            <url>https://jade.tilab.com/maven/</url>
-        </repository>
-    </repositories>
+<!--    <repositories>-->
+<!--        <repository>-->
+<!--            <id>tilab</id>-->
+<!--            <url>https://jade.tilab.com/maven/</url>-->
+<!--        </repository>-->
+<!--    </repositories>-->
 
 </project>

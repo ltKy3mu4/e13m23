@@ -17,6 +17,10 @@ public class Count{
         }
     }
 
+    public void unsafeIncrement(){
+        sum++;
+    }
+
     public synchronized void increment(){
         System.out.println("THread "+ Thread.currentThread().getName()+" is working "+sum);
 
