@@ -1,0 +1,51 @@
+[
+  {
+    "equipmentId": "GUID1111",
+    "equipmentLibId": "BUS",
+    "measurementLibId": "VOLTAGE_B",
+    "portLibId": "FIRST",
+    "crate-instance-id": "UID-2",
+    "board-id": "SX1",
+    "board-channel": 5,
+    "pin-type": "AO",
+
+    "scaling-factor": 2.0,
+    "measurement-type": "UB???"
+  },
+  {
+    "equipmentId": "GUID1112",
+    "equipmentLibId": "LOAD",
+    "controlLibId": "ACTIVE_POWER",
+    "portLibId": "FIRST",
+    "crate-instance-id": "UID-2",
+    "board-id": "SX1",
+    "board-channel": 10,
+    "pin-type": "AI"
+  },
+  {
+    "equipmentId": "GUID1113",
+    "equipmentLibId": "BREAKER",
+    "measurementLibId": "POSITION",
+    "portLibId": "FIRST",
+    "crate-instance-id": "UID-2",
+    "board-id": "SX1",
+    "board-channel": 15,
+    "pin-type": "DO",
+
+    "inverted": false,
+    "measurement-type": "POSITION???"
+  },
+  {
+    "equipmentId": "GUID1114",
+    "equipmentLibId": "BREAKER",
+    "controlLibId": "POSITION",
+    "portLibId": "FIRST",
+    "crate-instance-id": "UID-2",
+    "board-id": "SX1",
+    "board-channel": 20,
+    "pin-type": "DI",
+
+    "control-signal-type": "???",
+    "control-type": "???"
+  }
+]
